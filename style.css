@@ -1,0 +1,41 @@
+input, textarea, button{ background: #ffffff; color: #000000; font-size: 15px; padding: 8px; border: 1px solid #9e9e9e; border-radius: 1px; margin-right: 10px; margin-bottom: 10px; } input:hover, textarea:hover, button:hover{ background: #ebebeb; color: #000000; font-size: 15px; padding: 8px; border: 1px solid #9e9e9e; border-radius: 1px; margin-right: 10px; margin-bottom: 10px; } input:active, textarea:active, button:active{ background: #c9c9c9; color: #000000; font-size: 15px; padding: 8px; border: 1px solid #9e9e9e; border-radius: 1px; margin-right: 10px; margin-bottom: 10px; } *:focus{ outline: 0; -webkit-box-shadow: none; box-shadow: none; } *::-webkit-input-placeholder{ color: #000000; } content *::-moz-placeholder{ color: #000000; }  *:-ms-input-placeholder{ color: #000000; } #container *input:-moz-placeholder{ color: #000000; }
+
+#centred1{
+	margin: auto;
+	margin-top: 10%;
+	width: 200px;
+}
+
+#centred2{
+	margin: auto;
+	margin-top: 10%;
+	width: 520px;
+}
+
+#header{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#error{
+	background: #e74c3c;
+	color: #FFFFFF;
+	padding: 5px;
+	border-left: 1px solid #c0392b;
+	border-right: 1px solid #c0392b;
+	border-top: 1px solid #c0392b;
+	border-bottom: 2px solid #c0392b;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	-webkit-animation: fade 1s;
+	text-align: left;
+}
+
+#canvas{
+	margin: auto;
+	border: 1px solid #9e9e9e;
+}
+
+#logout{
+	margin-bottom: 10px;
+}
